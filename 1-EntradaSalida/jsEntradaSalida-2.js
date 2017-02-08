@@ -3,5 +3,9 @@ y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
 	
-}
+var nombre;
+name=prompt("ingrese su nombre");
+alert(name);
 
+
+}
