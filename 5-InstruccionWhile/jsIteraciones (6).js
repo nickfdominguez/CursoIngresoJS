@@ -15,19 +15,14 @@ function Mostrar()
 				numero= prompt("error reingrese");
 				numero= parseInt(numero);
 			}
-			if(numero<0)
-			{
-				negativo=negativo* numero;
-			}
-			else
-			{
-				acumulador=acumulador+numero;
-			}
+		
 
 			acumulador=acumulador+numero;
 		}
-			document.getElementById('suma').value=acumulador;
+			
 			promedio=acumulador/5;
+
+			document.getElementById('suma').value=acumulador;
 			document.getElementById('promedio').value=promedio;
 	
 
