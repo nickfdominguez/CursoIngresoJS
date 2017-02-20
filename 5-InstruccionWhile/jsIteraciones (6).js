@@ -15,13 +15,14 @@ function Mostrar()
 				numero= prompt("error reingrese");
 				numero= parseInt(numero);
 			}
-		
-
-			acumulador=acumulador+numero;
-		}
 			
-			promedio=acumulador/5;
 
+			
+			acumulador=acumulador+numero;
+		
+		}
+			promedio=acumulador/5;
+			
 			document.getElementById('suma').value=acumulador;
 			document.getElementById('promedio').value=promedio;
 	
