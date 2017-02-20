@@ -22,13 +22,13 @@ switch(mesDelAño)
 			case "Septiembre":
 			case "Octubre":
 			alert("Falta para el invierno." );
-			
 			break;
+      
 			case "Noviembre":
 			case "Diciembre":
 			alert( "Ya pasamos el frio, ahora calor!!!." );
 			break;
-
+            
 
 }
 
