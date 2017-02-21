@@ -9,4 +9,8 @@ if(edad>18)
 	alert("mayor");
 }
 if(edad>18&edad<18)
-}//FIN DE LA FUNCIÓN
+{
+	alert("menor");
+}
+}
+//FIN DE LA FUNCIÓN
