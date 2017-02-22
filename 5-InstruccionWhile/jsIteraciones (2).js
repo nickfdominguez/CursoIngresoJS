@@ -4,7 +4,7 @@ function Mostrar()
 		while(contador>0)
 		{
 			contador--;
-			document.write("numero"+contador);
+			console.log("numero"+contador);
 		}
 
 }//FIN DE LA FUNCIÓN

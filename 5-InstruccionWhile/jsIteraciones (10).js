@@ -71,7 +71,20 @@ var nombre;
 var sexo;
 var masviejo;
 var masviejo;
-var cantidad de mujeres aprobadas;
+var contadordemujeres=0;
+var aprobadoshombremayores=0;
+var aprobadosmujeresmenores=0;
+var sumadordemujeres=0;
+var sumadordehombres=0;
+var contadordehombres=0;
+var mejornotahombre;
+var nombremejornotam;
+var nombremejornotaf;
+var mejornotamujeres;
+
+
+
+
 while(respuesta="si")
 {
 	
@@ -117,14 +130,50 @@ while(respuesta="si")
 		if(sexo"f"&& nota>3)
 		{
 			contadordemujeres++;
+			sumadordemujeres=sumadordemujeres+ notas;
+		}
+		if(edad<20)
+		{
+			aprobadosmujeresmenores++;
+		}
+		if(sexo"m")
+		{
+			contadordehombres++;
+			sumadordehombres=sumadordehombres+ notas;
+		}
+		if(edad>25)
+		{
+			aprobadoshombremayores++;
+		}
+		if(nota>mejornotahombre && "m")
+		{
+			contador=0;
+			mejornotahombre=nota;
+			nombremejornotam=nombre;
+		}
+		if(nota>mejornotamujeres && "f")
+		{
+			mejornotamujeres=nota;
+			nombremejornotaf=nombre;
+		}
+		if(nota>3)
+		{
+			contadoraprobados++;
+		}
+		if(nota<4)
+		{
+			contadordesaprobado++;
 		}
 
-		
+
+
 
 		}	
 		/*1)cantidad de mujeres aprobadas
-		2)cantidad de hombres mayores a 25 años aprobados y cantidad de mujeres menores de 20 años aprobados
-		3) el nombre de la mujere con mejor notas y el nombre del hombre con mejor nota
+		2)cantidad de hombres mayores a 25 años aprobados 
+		cantidad de mujeres menores de 20 años aprobados
+		3) el nombre de la mujeres con mejor nota
+		 el nombre del hombre con mejor nota
 		4) promedio de las notas de las mujeres y de los hombres
 		5)porcentaje de aprobados vs desaprobados
 		6)el sexo y el nombre de la primera persona que se saque 10*/
