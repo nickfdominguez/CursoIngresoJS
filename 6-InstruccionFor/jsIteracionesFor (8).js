@@ -4,13 +4,38 @@ function Mostrar()
 	1) la cantidad de veces que salio de 1 al 10
 	2) el porcentaje de veces que salio de cada numero con respeto al total*/
 
-	for 0 al 10
+	/*for 0 al 10
 
 	1 9%
 	2 11%
 	3 12%
-	4 8%
+	4 8%*/
+		var numanterior;
+		var numingresado;
+		var tienedivisor="no";
+		var numrecorrido;
+		
+		numingresado=prompt(numingresado);
+		numingresado= parseInt(numingresado);
+
+for(numRecorrido=2;numanterior<(numingresado/2);numanterior--)		
+	{
+		 tienedivisor="no";
+	}	
+	for(numanterior=2;numanterior<(numingresado/2);numanterior++)
+			{
+				if(numingresado%numanterior==0)
+				{
+					 tienedivisor="so";
+					 break;
+				}
+			}
+			if(tienedivisor=="no")
+			{
+				console.log("es primo" + numingresado);
+			}
 
 
+]
 
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
