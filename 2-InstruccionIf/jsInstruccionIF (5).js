@@ -10,7 +10,7 @@ edad=document.getElementById("edad").value;
 	}
 	else
 	{
-			if(edad<18)
+			if(edad<18 && edad>=13)
 		{
 			alert("es adolecente")
 		}
