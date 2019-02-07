@@ -7,29 +7,26 @@ function sumar()
 	var numero1;
 	var numero2;
 	var resultado;
-
-	numero1 = document.getElementById('numeroUno').value;
-	numero2 = document.getElementById('numeroDos').value;
-
-	resultado = parseInt(numero1) + parseInt(numero2);
-
-	alert("El resultado es: "+ resultado);
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
+	resultado=numero1 + numero2;
+	alert("la suma del resultado es" + resultado)
 }
-
 function restar()
 {
 	var numero1;
 	var numero2;
 	var resultado;
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
+	resultado=numero1 - numero2;
+	alert("la suma del resultado es" + resultado)
 
-	numero1 = document.getElementById('numeroUno').value;
-	numero2 = document.getElementById('numeroDos').value;
-
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-	resultado = numero2 - numero1;
-
-	alert(resultado);
+	
 }
 
 function multiplicar()
@@ -37,16 +34,12 @@ function multiplicar()
 	var numero1;
 	var numero2;
 	var resultado;
-
-	numero1 = document.getElementById('numeroUno').value;
-	numero2 = document.getElementById('numeroDos').value;
-
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-
-	resultado = numero1 * numero2; 
-
-	alert(resultado);  
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
+	resultado=numero1 * numero2;
+	alert("la suma del resultado es" + resultado)
 }
 
 function dividir()
@@ -54,15 +47,12 @@ function dividir()
 	var numero1;
 	var numero2;
 	var resultado;
-
-	numero1 = document.getElementById('numeroUno').value;
-	numero2 = document.getElementById('numeroDos').value;
-
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-
-	resultado = numero1 / numero2; 
-
-	alert(resultado); 
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
+	resultado=numero1 / numero2;
+	alert("la suma del resultado es" + resultado)
 }
 
+v
