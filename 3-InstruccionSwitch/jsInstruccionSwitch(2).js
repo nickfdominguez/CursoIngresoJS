@@ -15,6 +15,17 @@ switch(mesDelaño)
 	case "Julio":
 	alert("hace mucho frio");
 	break;
+	
+	case "Agosto":
+	case "Septiembre":
+	case "Octubre":
+	alert("falta para el invierno");
+	break;
+
+	case"Noviembre":
+	case "Diciembre":
+	alert("Ya pasamos el frio, ahora calor!!!.");
+	break;
 }
 			
 			
