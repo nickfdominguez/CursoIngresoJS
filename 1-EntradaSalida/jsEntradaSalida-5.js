@@ -3,14 +3,11 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
 	
-
-var nombre;
-var edad;
-
-nombre=document.getElementById("elNombre").value;
-edad=document.getElementById("laEdad").value;
-alert("su nombre es"+ nombre +"su edad es"+ edad);
-
+var Nombre;
+var Edad;
+Nombre=document.getElementById("elNombre").value;
+Edad=document.getElementById("laEdad").value;
+alert("su nombre es " + Nombre + "su edad es " + Edad);
 
 
 

@@ -6,6 +6,6 @@ function Mostar()
 	var name;
 	name=document.getElementById("elNombre").value;
 	alert(name);
-}
 
+}
 

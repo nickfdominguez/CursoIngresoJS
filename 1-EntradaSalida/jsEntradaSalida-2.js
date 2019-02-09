@@ -2,12 +2,8 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-   var name,
-    name=prompt("ingrese su nombre");
-    alert(name);
-    
-
-
+  var name;
+  name=prompt("ingrese su nombre");
+  alert(name);
 }
-
 
