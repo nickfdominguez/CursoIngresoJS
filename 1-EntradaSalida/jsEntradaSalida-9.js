@@ -12,3 +12,16 @@ resultado=sueldo*1.10;
 document.getElementById("resultado").value=resultado;
 }
 
+{
+    var sueldo;
+    var sueldoConAumento;
+    var aumento;
+    sueldo=document.getElementById("sueldo").value;
+    sueldo=parseFloat(sueldo);
+    aumento=sueldo* 0.2;
+    sueldoConAumento=aumento + sueldo;
+    document.getElementById("resultado").value=resultado;
+
+
+
+}
