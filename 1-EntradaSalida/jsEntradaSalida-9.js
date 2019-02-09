@@ -8,7 +8,7 @@ var sueldo;
 var resultado;
 sueldo=document.getElementById("sueldo").value;
 sueldo=parseInt(sueldo);
-resultado=sueldo*1.10;
+resultado=sueldo*0.10;
 document.getElementById("resultado").value=resultado;
 }
 
@@ -18,7 +18,7 @@ document.getElementById("resultado").value=resultado;
     var aumento;
     sueldo=document.getElementById("sueldo").value;
     sueldo=parseFloat(sueldo);
-    aumento=sueldo* 0.2;
+    aumento=sueldo* 0.1;
     sueldoConAumento=aumento + sueldo;
     document.getElementById("resultado").value=resultado;
 
