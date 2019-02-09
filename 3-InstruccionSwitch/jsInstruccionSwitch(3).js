@@ -9,7 +9,7 @@ alert(mesDelaño);
 switch(mesDelaño)
 	{
 		case "Febrero":
-		alert("tiene 29 dias");
+		alert(" Este mes no tiene más de 29 días." );
 		break;
         
         case "Enero":
@@ -19,10 +19,12 @@ switch(mesDelaño)
         case "Agosto":
         case "Octubre":
         case "Diciembre":
-        alert("tiene 31 dias");
+        case "Abril":
+        case "Junio":
+        case "septiembre":
+        case "Noviembre":
+        alert( "Este mes tiene 30 o más días");
         break;
-         
-        case "Marzo":
         
     
     
