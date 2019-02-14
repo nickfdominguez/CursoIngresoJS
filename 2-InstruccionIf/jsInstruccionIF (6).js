@@ -1,31 +1,28 @@
-function Mostrar()
+function mostrar()
 {
 //tomo la edad  
+        var edad;
+        edad=document.getElementById("edad").value;
+            if(edad>=18)
+            {
+                alert("mayor de edad");
+            }
+            else
+            {
+                if(edad>=13 && edad <=17)
+                {
+                    alert(" es adolecente");
 
-var edad;
-edad=document.getElementById("edad").value;
-	if(edad>=18)
-	{
-		alert("mayor de edad");
-	}
-	else
-	{
-		if(edad<=17 && edad>=13)
-		{
-			alert("adolecente");
-		}
-		if(edad<=12)
-		{
-			alert("menor de 12 años");
-		}
-	
-	
-	}
-	
+                }
+                else
+                {
+                        if(edad<=12)
 
-	
+                    {
+                        alert("menor a 13");
+                    }
+                }
+               
+            }
 
-
-
-}
-//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN
