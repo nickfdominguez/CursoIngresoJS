@@ -2,7 +2,7 @@
 {
 
 	var contador=0;
-	//declarar contadores y variables 
+	//declarar contadores y variables
 	var numero;
 	var respuesta="si";
 	var sumanegativos=0;
@@ -87,7 +87,7 @@ var mejornotamujeres;
 
 while(respuesta="si")
 {
-	
+
 	sumadorNota+1;
 	Nota=prompt("por favor ingrese su nota");
 	Nota=parseInt(Nota);
@@ -97,14 +97,14 @@ while(respuesta="si")
 		Nota=prompt("por favor ingrese su nota");
 		Nota=parseInt(Nota)
 	}
-		while(edad=0||edad=90)
+		while(edad=0||edad==90)
 		{
 			edad=prompt("ingrese su edad");
 			edad=parseInt(edad);
 		}
-		
+
 		nombre=prompt("ingrese su nombre");
-		
+
 		while(sexo!="f"&&sexo!="m")
 		{
 			sexo=prompt("ingrese sexo");
@@ -112,7 +112,7 @@ while(respuesta="si")
 		//aca termino la carga de valididacion//
 
 		sumadorNota=sumadorNota+Nota;
-		
+
 		respuesta=prompt("ingrese para continuar");
 
 		if(contador==0)
@@ -127,7 +127,7 @@ while(respuesta="si")
 				masviejo=nombre;
 				edadmasviejo=edad;
 			}
-		if(sexo"f"&& nota>3)
+		if(sexo!="f"&& nota>3)
 		{
 			contadordemujeres++;
 			sumadordemujeres=sumadordemujeres+ notas;
@@ -136,7 +136,7 @@ while(respuesta="si")
 		{
 			aprobadosmujeresmenores++;
 		}
-		if(sexo"m")
+		if(sexo!="m")
 		{
 			contadordehombres++;
 			sumadordehombres=sumadordehombres+ notas;
@@ -168,9 +168,9 @@ while(respuesta="si")
 
 
 
-		}	
+		}
 		/*1)cantidad de mujeres aprobadas
-		2)cantidad de hombres mayores a 25 años aprobados 
+		2)cantidad de hombres mayores a 25 años aprobados
 		cantidad de mujeres menores de 20 años aprobados
 		3) el nombre de la mujeres con mejor nota
 		 el nombre del hombre con mejor nota
