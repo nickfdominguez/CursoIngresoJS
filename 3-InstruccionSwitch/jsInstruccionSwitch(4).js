@@ -1,6 +1,6 @@
 function mostrar()
 {
-//tomo la edad  
+//tomo la edad
     var mesDelaño;
     mesDelaño=document.getElementById("mes").value;
     alert(mesDelaño);
@@ -12,11 +12,26 @@ function mostrar()
 
         case "Abril":
         case "Junio":
-    }
+        case  "Septiembre":
+        case "Noviembre":
+        alert("tiene 30 dias");
+        break;
+
+        case "Enero":
+        case "Marzo":
+        case "Mayo":
+        case "Julio":
+        case "Agosto":
+        case "octubre":
+        case "Diciembre":
+        alert("tiene 31 dias");
+        break;
+      }
+
 
 //alert (mesDelAño);
-	
-	
+
+
 
 
 
